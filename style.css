@@ -1,0 +1,260 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    
+}
+
+.navbar-brand{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-dark{
+    background: rgb(10, 10, 10);
+}
+
+button {
+    font-weight: bold ;
+}
+
+
+footer{
+    background: rgba(14, 14, 14, 14);
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 3rem;
+  
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li{
+    margin: 0 10px;
+    margin-right: 4em;
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social 
+
+
+.social a:hover i{
+    color: rgb(0, 174, 255);
+}
+
+.footer-bottom{
+    background-color: black;
+    width: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+#subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: rgb(10, 10, 10);
+}
+
+#iconos{
+    max-height: 20%;
+    margin-left: 20px;
+}
+
+#subtitulo3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    background-color: rgb(17, 17, 17);
+}
+
+#fotostock{
+    border-radius: 20px;
+    width: 466.6px;
+    height: 700px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+#subtitulo4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+    background-color: rgb(17, 17, 17);
+    margin-bottom: 100px;
+}
+
+.contact-section{
+    background: url(bg.png) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+  }
+.contact-section h3{
+    text-align: center;
+    color: rgb(15, 15, 15);
+  }
+.border{
+    width: 100px;
+    height: 10px;
+    background: rgb(15, 15, 15);
+    margin: 40px auto;
+    border-radius: 5px;
+  }
+  
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+  }
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #838383;
+  }
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #0777e7;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+.contact-form-btn:hover{
+    background: #37a6f0;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe{
+    width: 640px;
+    height: 360px;
+    margin: 0%;
+    border-radius: 15px;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .main img{
+    width: 690px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+
+.all-text{
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.main{
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #0a0a0a;
+}
+
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 60%;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}

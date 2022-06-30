@@ -1,0 +1,604 @@
+<!doctype html>
+
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Revellier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Raleway:wght@900&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Quicksand:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./media/Favicon/logo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@800&family=Quicksand:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9fa630a9c.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+<!--Aca inicia la barra de navegacion-->
+
+<header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">REVELLIER.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-2 " id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subtitulo3">Sobre nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ayuda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="https://www.andreani.com/#!/personas" target="_blank">Segui tu pedido</a></li>
+                <li><a class="dropdown-item" href="#container1">Sucursales</a></li>
+                <li><a class="dropdown-item" href="#contactanos">Contactanos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subtitulo">Productos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+</header>
+
+<!--Aca inicia el hero-->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+      <img src="./imagenes/Both-Hoodies/both3ro.jpg" class="d-block w-100" alt="hero imagen 1">
+      <div>
+      <div class="carousel-caption">
+        <h5 id="texto1">NUEVA COLECCIÓN DE INVIERNO</h5>
+        <p id="parrafo1">Afrontá el invierno con la mejor calidad de buzos que encontrarás</p>
+        <a href="#subtitulo" class="btn btn-primary mb-5 mt-3">Ver más</a>
+      </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/Both-Hoodies/muestras.jpg" class="d-block w-100" alt="hero imagen 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 id="texto2"> Fu*k Enemies </h5>
+        <p id="parrafo2">Un nuevo estilo llegó para quedarse, enterate de las novedades acá.</p>
+        <a href="#subtitulo" class="btn btn-primary mb-5 mt-3">Ver más</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/Both-Hoodies/both4to.jpg" class="d-block w-100" alt="hero imagen 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 id="texto3">Dissolve NFT Versión</h5>
+        <p id="parrafo3">Accedé a beneficios exclusivos y a un NFT con la compra de este buzo exclusivo de edición limitada</p>
+        <a href="#subtitulo" class="btn btn-primary mb-5 mt-3">Ver más</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Aca inician las cartas-->
+
+<div class="container mt-5">
+
+  <h2 class="text-center" id="subtitulo">LOS MÁS VENDIDOS</h2>
+
+</div>
+
+<!--Carta numero 1-->
+
+<div class="container">
+
+      <div class="d-flex justify-content-evenly">
+
+
+            <div class="carta mt-5 ms-4 mb-5">
+
+                <div class="card">
+                  <img src="./imagenes/Back-Hoodies/back1ro.jpg" class="card-img-top" alt="cartas primer hoodie">
+                  <div class="card-body">
+                    <h5 class="card-title">Fu*ck Enemies - Hoodie</h5>
+                    <p class="card-text">Un hoodie diseñado por uno de nuestros seguidores top, que se volvío tendencia en los jovenes, averiguá todos los detalles acá.</p>
+                    <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+                  </div>
+                </div>
+              
+            </div>
+
+<!--Carta numero 2-->
+
+            <div class="carta mt-5 ms-4 mb-5">
+
+                <div class="card">
+                  <img src="./imagenes/Back-Hoodies/white2doback.jpg" class="card-img-top" alt="cartas segundo hoodie">
+                  <div class="card-body">
+                    <h5 class="card-title">RVLR Eccentric - Hoodie</h5>
+                    <p class="card-text">Cuenta con un estilo minimalista, profesional y gracias a su excelente calidad es uno de los buzos del momento. </p>
+                    <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+                  </div>
+                </div>
+
+            </div>
+
+<!--Carta numero 3-->
+
+            <div class="carta mt-5 ms-4 mb-5">
+
+                <div class="card">
+                  <img src="./imagenes/Back-Hoodies/back4to.jpg" class="card-img-top" alt="cartas tercer hoodie">
+                  <div class="card-body">
+                    <h5 class="card-title">Dissolve - Hoodie</h5>
+                    <p class="card-text">Desde el Metaverso, un hoodie que con tu compra te otorgara un NFT que te brindara acceso a las nuevas colecciones y descuentos.</p>
+                    <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+                  </div>
+                </div>
+                
+              </div>
+      </div>
+
+</div>
+
+<hr>
+
+<!--Productos-->
+
+<div class="container mt-5 mb-5">
+
+  <h2 class="text-center" id="subtitulo">NUESTROS PRODUCTOS</h2>
+
+</div>
+
+<hr>
+
+<div class="container mt-5">
+
+  <h3 class="text-center" id="subtitulo">Hoodies</h2>
+
+</div>
+
+<!--Cartas-->
+
+<div class="container">
+
+  <div class="d-flex justify-content-evenly">
+
+<!--Carta numero 1-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Front-hoodies/front1ro.jpg" class="card-img-top" alt="Productos hoodie 1">
+              <div class="card-body">
+                <h5 class="card-title">Fu*ck Enemies - Hoodie</h5>
+                <p class="card-text">Un hoodie diseñado por uno de nuestros seguidores top, que se volvío tendencia en los jovenes, averiguá todos los detalles acá.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          
+        </div>
+
+<!--Carta numero 2-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Front-hoodies/front2do.jpg" class="card-img-top" alt="Productos hoodie 2">
+              <div class="card-body">
+                <h5 class="card-title">Free World - Hoodie</h5>
+                <p class="card-text">Cuenta con un estilo minimalista, profesional y gracias a su excelente calidad es uno de los buzos del momento. </p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+
+        </div>
+
+<!--Carta numero 3-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Front-hoodies/front3ro.jpg" class="card-img-top" alt="Productos hoodie 3">
+              <div class="card-body">
+                <h5 class="card-title">Welcome to the hell - Hoodie</h5>
+                <p class="card-text">Traido desde el infierno, es un hoodie con temática halloween / dark que cuenta con varias referencias al cine de los 80s.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+            
+          </div>
+  </div>
+
+</div>
+
+<hr>
+
+<div class="container">
+
+  <div class="d-flex justify-content-evenly">
+
+<!--Carta numero 4-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Front-hoodies/front4to.jpg" class="card-img-top" alt="Productos hoodie 4">
+              <div class="card-body">
+                <h5 class="card-title">Dissolve - Hoodie</h5>
+                <p class="card-text">Desde el Metaverso, un hoodie que con tu compra te otorgara un NFT (non-fungible token) que te brindara acceso a las nuevas colecciones y descuentos.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          
+        </div>
+
+<!--Carta numero 5-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Front-hoodies/front5to.jpg" class="card-img-top" alt="Productos hoodie 5">
+              <div class="card-body">
+                <h5 class="card-title">Heroic - Hoodie</h5>
+                <p class="card-text">Tematizado en la segunda guerra mundial, con sutiles toque en blanco e ilustraciones originales por autores reconocidos. ¡Consegui esta version Deluxe ahora!</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+
+        </div>
+
+<!--Carta numero 6-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Front-hoodies/white2dofront.jpg" class="card-img-top" alt="Productos hoodie 6">
+              <div class="card-body">
+                <h5 class="card-title">Free World White edition - Hoodie</h5>
+                <p class="card-text">Cuenta con un estilo minimalista, profesional y gracias a su excelente calidad es uno de los buzos del momento ¡No te pierdas esta version exclusiva en color blanco! </p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+            
+          </div>
+  </div>
+
+</div>
+
+<hr>
+
+<div class="container mt-5">
+
+  <h3 class="text-center" id="subtitulo">Accesorios</h2>
+
+</div>
+
+<div class="container">
+
+  <div class="d-flex justify-content-evenly">
+
+<!--Carta numero 7-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/bandananegra.jpg" class="card-img-top" alt="Productos bandana 1">
+              <div class="card-body">
+                <h5 class="card-title">Bandana - Black Edition</h5>
+                <p class="card-text">Medida Bandanas cuadrada de 55cm x 55cm por lado. <br> Modelo Bandanas estampado de serigrafia. <br> Resistente al agua se puede lavar.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          
+        </div>
+
+<!--Carta numero 8-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/bandanaverde.jpg" class="card-img-top" alt="Productos bandana 2">
+              <div class="card-body">
+                <h5 class="card-title">Bandana - Green Edition</h5>
+                <p class="card-text">Medida Bandanas cuadrada de 55cm x 55cm por lado. <br> Modelo Bandanas estampado de serigrafia. <br> Resistente al agua se puede lavar.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+
+        </div>
+
+<!--Carta numero 9-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/bandanavioleta.jpg" class="card-img-top" alt="Productos bandana 3">
+              <div class="card-body">
+                <h5 class="card-title">Bandana - Purple Edition</h5>
+                <p class="card-text">Medida Bandanas cuadrada de 55cm x 55cm por lado. <br> Modelo Bandanas estampado de serigrafia. <br> Resistente al agua se puede lavar.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+            
+          </div>
+  </div>
+
+</div>
+
+<hr>
+
+<div class="container">
+
+  <div class="d-flex justify-content-evenly">
+
+<!--Carta numero 10-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/chanclas.jpg" class="card-img-top" alt="Productos chancletas 1">
+              <div class="card-body">
+                <h5 class="card-title">Chancletas RVLR - Black Edition</h5>
+                <p class="card-text">Ojotas Hawaianas, 100% originales, con sello de autenticidad.
+                  Las mismas están fabricadas íntegramente en caucho y son súper reforzadas, de gran durabilidad.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          
+        </div>
+
+<!--Carta numero 11-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/chanclasblue.jpg" class="card-img-top" alt="Productos chancletas 2">
+              <div class="card-body">
+                <h5 class="card-title">Chancletas RVLR - Blue Edition</h5>
+                <p class="card-text">Ojotas Havaianas, 100% originales, con sello de autenticidad.
+                  Las mismas están fabricadas íntegramente en caucho y son súper reforzadas, de gran durabilidad.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+
+        </div>
+
+<!--Carta numero 12-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/chanclaswhite.jpg" class="card-img-top" alt="Productos chancletas 3">
+              <div class="card-body">
+                <h5 class="card-title">Chancletas RVLR - White Edition</h5>
+                <p class="card-text">Ojotas Havaianas, 100% originales, con sello de autenticidad.
+                  Las mismas están fabricadas íntegramente en caucho y son súper reforzadas, de gran durabilidad.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+            
+          </div>
+  </div>
+
+</div>
+
+<hr>
+
+<div class="container">
+
+  <div class="d-flex justify-content-evenly">
+
+<!--Carta numero 13-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/riñonera.jpg" class="card-img-top" alt="Productos riñonera 1">
+              <div class="card-body">
+                <h5 class="card-title">Riñonera Revellier - Black</h5>
+                <p class="card-text">Diseñado para maximizar el espacio en un diseño compacto. Se adapta a su cintura mientras está sentado o de pie y se adhiere a su bolso Maxpedition para llevarlo a donde quiera que vaya, lo que lo hace perfecto para viajes en avión o tren.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          
+        </div>
+
+<!--Carta numero 14-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/mochilahell.jpg" class="card-img-top" alt="Productos riñonera 2">
+              <div class="card-body">
+                <h5 class="card-title">Welcome to te hell - Mochila</h5>
+                <p class="card-text">Cuenta un fondo de cuero de gamuza, una funda interna para computadora portátil de 15 pulgadas y un bolsillo frontal para organizar tus accesorios, esta mochila seguramente será la mejor para donde sea que te lleve el día.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+
+        </div>
+
+<!--Carta numero 15-->
+
+        <div class="carta mt-5 ms-4 mb-5">
+
+            <div class="card">
+              <img src="./imagenes/Accesorios/riñoneravio.jpg" class="card-img-top" alt="Productos riñonera 3">
+              <div class="card-body">
+                <h5 class="card-title">Riñonera Revellier - Purple</h5>
+                <p class="card-text">Diseñado para maximizar el espacio en un diseño compacto. Se adapta a su cintura mientras está sentado o de pie y se adhiere a su bolso Maxpedition para llevarlo a donde quiera que vaya, lo que lo hace perfecto para viajes en avión o tren.</p>
+                <a href="no-stock.html" class="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+            
+          </div>
+  </div>
+
+</div>
+
+<!--Aca va la info del producto y el servicio-->
+
+<h3 class="text-center mb-5" id="subtitulo3" >¿POR QUÉ CONFIAR EN NOSOTROS?</h3>
+
+<section id="about">
+    <div id="about-1">
+        <div class="content-box-lg">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 mb-5">
+                  <div class="about-item text-center">
+                    <i class="fa  fa-globe fa-5x"></i>
+                    <h3>Envíos internacionales</h3>
+                    <hr>
+                    <p>Con la última expansión de Revellier a Europa, ya no hay lugar al que no lleguemos. No te preocupes si eres de una zona rural o poco transitada, nosotros junto a nuestro servicio exclusivo de envíos nos aseguraremos de que tu producto llegue sano y salvo y en el tiempo que deseas.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                  <div class="about-item text-center">
+                    <i class="fa  fa-truck fa-5x"></i>
+                    <h3>Seguimiento de envío</h3>
+                    <hr>
+                    <p>¿Ya hiciste tu compra? Si es así, no te preocupes, dentro de las próximas 24 horas se te enviará automáticamente a tu casilla de mail un link con el acceso al seguimiento del envío en tiempo real. Si tienes algún inconveniente puedes dejar tu consulta haciendo <a href="#contactanos">Click aquí</a> . </p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                  <div class="about-item text-center">
+                    <i class="fa  fa-star fa-5x"></i>
+                    <h3>Garantías y beneficios</h3>
+                    <hr>
+                    <p>¿Algún problema con tu producto? Si es así envianos tu queja en la sección de <a href="#contactanos">contacto</a> donde rápidamente serás atendido por un trabajador que intentará resolver tu problema. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Aca va la info del empresa-->
+
+<h3 class="text-center" id="subtitulo3" >¿QUIENES SOMOS?</h3>
+
+<section class="about mt-5">
+  <div class="main">
+    <img src="./imagenes/Fotos-png/aboutimg.png" alt="imagen quienes somos">
+    <div class="all-text">
+      <h3>REVELLIER, UN POCO SOBRE NOSOTROS</h3>
+      <p>Somos una empresa que cuenta con mucha historia, nacimos en 1972 y desde entonces ¡nunca hemos parado! <br>
+      En un principio nos dedicábamos a todas las ramas de la confección de prendas, pero en el 2007 decidimos realizar un cambio para
+      enfocarnos completamente en dos sectores, como lo son los buzos y los accesorios "StreetWear".
+      Revellier se compone principalmente de 2 hermanos que desde chicos fueron unos apasionados por la ropa y el diseño. Esa pasión fue la que
+      nos permitió crecer a pasos agigantados hasta lograr expandirnos al rededor del mundo. Contamos con sucursales en Europa, Amé
+      rica del norte, en
+      el sur de Asia, África y en Argentina se encuentran nuestras sucursales principales y más históricas. <br>
+      ¿Te atreves a ser parte de la historia?
+      </p>
+      <a href="#subtitulo" class="btn btn-primary mb-5 mt-3">Si, ver productos</a>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!--Aca va la ubicación-->
+
+<div class="container1 mt-5" id="container1">
+  <h3 class="text-center mb-5">Encontra nuestra sucursal principal</h3>
+  <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6569.252613706577!2d-58.410757!3d-34.588321!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7a941fe0d021ba0!2sAlto%20Palermo%20Shopping!5e0!3m2!1ses-419!2sar!4v1656152712905!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<!--Arrepentimiento o ayuda-->
+
+<div class="contact-section">
+
+  <h3 id="contactanos">Contactanos</h3>
+  <div class="border"></div>
+  <form class="contact-form" action="index.html" method="post">
+    <input type="text" class="contact-form-text" placeholder="Nombre y apellido">
+    <input type="email" class="contact-form-text" placeholder="Tu email">
+    <input type="text" class="contact-form-text" placeholder="Tu número telefónico">
+    <textarea class="contact-form-text" placeholder="Ingrese su queja o duda"></textarea>
+    <div class="row"> 
+      <input type="submit" class="contact-form-btn" value="Enviar">
+    </div>
+  </form>
+</div>
+
+<!--Aca va el footer-->
+
+<footer>
+
+  <div class="footer-content">
+
+      <h3>REVELLIER.</h3>
+
+      <h4>Marcas que confían en nosotros</h4>
+
+<ul class="social">
+
+              <li><a href="https://www.fedex.com/en-us/home.html" target="_blank"> <i class="fa-brands fa-fedex fa-3x" id="fedex"></i> </a></li>
+              <li><a href="https://www.spotify.com/ar/" target="_blank"> <i class="fa-brands fa-spotify fa-3x" id="spotify"></i> </a></li>
+              <li><a href="https://www.playstation.com/en-us/" target="_blank"> <i class="fa-brands fa-playstation fa-3x" id="play"></i> </a></li>
+
+          </ul>
+      
+      <p class="whitev2"> Es un proyecto ficticio, sobre una marca existente que aún no salió al mercado.
+        Toda la información proporcionada anteriormente es falsa, con el objetivo de seguir las instrucciones del trabajo. <br>
+        Diseños de indumentaria por <span><i>Tomás Gabriel Hernández</i></span> <br>
+        Codigo y diseño de la pagina por <span><i>Lucas Barboza</i></span> y <span><i>Tomás Gabriel Hernández</i></span>
+      </p>
+
+          <ul class="social">
+
+              <li><a href="https://twitter.com/home" target="_blank"> <i class="fa fa-twitter"></i> </a></li>
+              <li><a href="https://www.instagram.com/tht.designs/" target="_blank"> <i class="fa fa-instagram"></i> </a></li>
+              <li><a href="https://www.youtube.com/" target="_blank"> <i class="fa fa-youtube"></i> </a></li>
+              <li><a href="https://www.linkedin.com/feed/" target="_blank"> <i class="fa fa-linkedin-square"></i> </a></li>
+
+          </ul>
+
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy;2022 REVELLIER. Diseñado por <span>Hernández Tomás</span> y <span>Lucas Barboza</span> </p>
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
